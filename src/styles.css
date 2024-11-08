@@ -1,0 +1,80 @@
+/* Styles for the Tic-Tac-Toe game */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .game-board {
+    margin-right: 20px;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #333;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+  }
+  
+  .square:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .game-info button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .game-info button:hover {
+    background-color: #45a049;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
